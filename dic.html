@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Word Nest</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome CSS (latest) -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-y8zD8hFzYbqJxVl3KfUZjDFG6Z5Cq3Zqgik/2kh+TfCLm1XcmfGzNqExYqRJKnP9U/0t7GpHq+GpKfH+dr9ZFA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="dic.css" />
+</head>
+<body>
+  <nav>
+    <div class="header-content">
+      <h1>
+        <i class="fas fa-book-open"></i> Word Nest
+      </h1>
+      <p class="quote">“Words are, in my not-so-humble opinion, our most inexhaustible source of magic.”</p>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="searchBar">
+      <div class="input-wrapper">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Type a word..." id="searchInput" />
+      </div>
+      <button id="searchBtn">Search</button>
+    </div>
+    <div class="text"></div>
+  </div>
+
+  <script src="dic.js"></script>
+</body>
+</html>
